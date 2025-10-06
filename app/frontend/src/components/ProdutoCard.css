@@ -1,0 +1,25 @@
+.produto-card {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s;
+}
+.produto-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.produto-card h2 {
+  margin-top: 0;
+  color: #2d3a4a;
+}
+.produto-card p {
+  margin: 0.5rem 0;
+}
+.produto-id {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #888;
+}
